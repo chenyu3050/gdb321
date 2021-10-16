@@ -7,7 +7,7 @@ if [ "$1" = "install" ];then
 	echo '-----------------------------------------pull peda--------------------------------------------------'
 	git clone git@git.zhlh6.cn:longld/peda.git ~/peda
 	echo '-----------------------------------------pull gef--------------------------------------------------'
-	wget -q -O ~/.gdbinit-gef.py https://gitee.com/kongjiadongyuan/gef.git
+	wget -q -O ~/.gdbinit-gef.py https://gitee.com/kongjiadongyuan/gef/raw/dev/gef.py
 	echo '-----------------------------------------pull pwndbg--------------------------------------------------'
 	git clone git@git.zhlh6.cn:pwndbg/pwndbg.git ~/pwndbg
 	echo '-----------------------------------------pull Pwngdb--------------------------------------------------'
