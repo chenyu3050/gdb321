@@ -5,13 +5,13 @@ gdbdirpath2="/usr/bin"
 gdbdirpath1= "/usr/local/bin"
 if [ "$1" = "install" ];then
 	echo '-----------------------------------------pull peda--------------------------------------------------'
-	git clone https://github.com/longld/peda.git ~/peda
+	git clone git@git.zhlh6.cn:longld/peda.git ~/peda
 	echo '-----------------------------------------pull gef--------------------------------------------------'
-	wget -q -O ~/.gdbinit-gef.py https://github.com/hugsy/gef/raw/master/gef.py
+	wget -q -O ~/.gdbinit-gef.py https://gitee.com/kongjiadongyuan/gef.git
 	echo '-----------------------------------------pull pwndbg--------------------------------------------------'
-	git clone https://github.com/pwndbg/pwndbg ~/pwndbg
+	git clone git@git.zhlh6.cn:pwndbg/pwndbg.git ~/pwndbg
 	echo '-----------------------------------------pull Pwngdb--------------------------------------------------'
-	git clone https://github.com/scwuaptx/Pwngdb.git ~/Pwngdb
+	git clone git@git.zhlh6.cn:scwuaptx/Pwngdb.git ~/Pwngdb
 
 	chmod -R 777 ./*
 	filepath=$(cd "$(dirname "$0")"; pwd)
