@@ -4,9 +4,11 @@ Make sure that the local gdb has been installed before using it!<br>
 Because pwndbg needs some dependencies: such as pyelftools, etc., it is best to install pwntools before installation. The command is as follows: pip install pwntools -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 **use it：**
-1. git clone git@github.com:chenyu3050/gdb321.git
-2. cd ./gdb321/
-3. ./run_gdb.sh install
+```
+ git clone git@github.com:chenyu3050/gdb321.git
+ cd ./gdb321/
+ ./run_gdb.sh install
+```
 
 If you want to remove it, please use the remove parameter as follows:<br>
 `./run_gdb.sh remove`
