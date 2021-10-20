@@ -5,7 +5,7 @@ Because pwndbg needs some dependencies: such as pyelftools, etc., it is best to 
 
 **use it：**
 ```
- git clone git@github.com:chenyu3050/gdb321.git
+ git clone https://github.com/chenyu3050/gdb321.git
  cd ./gdb321/
  ./run_gdb.sh install
 ```
